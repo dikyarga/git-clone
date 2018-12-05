@@ -1,6 +1,6 @@
 {
-  "name": "git-clone",
-  "version": "0.1.0",
+  "name": "git-clone-specific-branch",
+  "version": "0.1.2",
   "description": "Clone a git repository",
   "main": "index.js",
   "scripts": {
