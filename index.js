@@ -17,6 +17,12 @@ module.exports = function(repo, targetPath, opts, cb) {
         args.push('1');
     }
 
+
+    if (opts.checkout) {
+        args.push('--branch')
+        args.push(opts.checkout)
+    }
+
     args.push('--');
     args.push(repo);
     args.push(targetPath);
